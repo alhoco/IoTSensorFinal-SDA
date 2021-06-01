@@ -19,7 +19,7 @@ class Sensor {
         uint8_t id;
         uint16_t read();
         bool changed;
-        uint8_t precision = 5;
+        uint8_t precision = 50;
 };
 
 Sensor::Sensor(uint8_t id, uint8_t pin){
